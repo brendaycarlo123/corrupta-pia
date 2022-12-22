@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+ 
+}
+
+
+body {
+   background-color: rgb(99, 162, 162);
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+img {
+    width: 25%;
+ }
+
+.menu{
+    height: inherit;
+}
+
+.header li{
+    height: inherit;
+}
+
+ .header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+h1 strong{
+color: chartreuse;
+
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header{
+    background-color:deepskyblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo img{
+    width: 200px;
+
+}
+
+.principal {
+    background-color: darkcyan;
+    background-image:url(img/popo.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+}
+
+.principal img{
+    width: 300px;
+}
+.principal-boton {
+    width: 250px;    
+    height: 40px;
+    background-color: chartreuse;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.SOMOS {
+    background-color: rgb(0, 117, 157);
+    text-align: center;
+    padding: 50px;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.SOMOS h2 {
+color: chartreuse;
+margin-bottom: 10px;
+}
+
+.SOMOS p{
+  margin-bottom: 20px;
+}
+.principal3 {
+    background-color: rgb(0, 79, 79);
+    text-align: center;
+    padding: 30px;
+    margin: 15px;
+}
+
+.principal4 {
+    background-color: rgb(0, 51, 51);
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+}
+
+/*
+
+.padre {
+background-color: white;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content:center;
+height: 500px;
+align-items: center;
+}
+
+.hijo {
+background-color: orange;
+width: 200px;
+height: 200px;
+border: 2px solid green;
+font-size: 30px;
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+*/
+
+.aplicar {
+height: 500px;
+background-color: rgb(0, 51, 51);
+display: flex;
+}
+
+.aplicar-detalles{
+width: 50%;
+height: inherit;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+text-align: center;
+}
+
+.aplicar-detalles img{
+height: 90%;
+
+}
